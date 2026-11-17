@@ -1,0 +1,6 @@
+string[] item_ids
+string station_id
+---
+bool success
+string message
+string[] order_ids

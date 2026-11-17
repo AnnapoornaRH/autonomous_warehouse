@@ -1,0 +1,4 @@
+float64 orders_per_minute
+---
+bool success
+string message

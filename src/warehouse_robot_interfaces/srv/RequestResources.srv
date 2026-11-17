@@ -1,0 +1,10 @@
+# Atomic all-or-nothing reservation of traffic zones / packing stations.
+# Calling again while queued refreshes the request (acts as a heartbeat).
+string robot_id
+string[] resources
+float64 priority            # lower value = more urgent (deadline based)
+string order_id
+---
+string status               # GRANTED | QUEUED | DENIED
+uint32 queue_position
+string reason

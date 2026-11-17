@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>warehouse_bringup</name>
+  <version>1.0.0</version>
+  <description>Top level launch files and start-up sequencer</description>
+  <maintainer email="warehouse@example.com">warehouse</maintainer>
+  <license>Apache-2.0</license>
+  <depend>warehouse_common</depend>
+  <depend>warehouse_robot_interfaces</depend>
+  <depend>nav2_msgs</depend>
+  <depend>warehouse_simulation</depend>
+  <depend>warehouse_navigation</depend>
+  <depend>warehouse_manipulation</depend>
+  <depend>warehouse_robot_agent</depend>
+  <depend>warehouse_order_manager</depend>
+  <depend>warehouse_task_allocator</depend>
+  <depend>warehouse_traffic_manager</depend>
+  <depend>warehouse_metrics</depend>
+  <depend>warehouse_dashboard_bridge</depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

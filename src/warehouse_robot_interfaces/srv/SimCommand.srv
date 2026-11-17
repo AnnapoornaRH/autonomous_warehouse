@@ -1,0 +1,4 @@
+string command             # start | pause | resume | reset | estop | release_estop
+---
+bool success
+string message

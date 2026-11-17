@@ -1,0 +1,13 @@
+# Goal
+string mode                 # pick | place
+string item_id
+string station_id           # place only
+---
+# Result
+bool success
+string message
+float32 gripper_width
+---
+# Feedback
+string phase
+float32 progress

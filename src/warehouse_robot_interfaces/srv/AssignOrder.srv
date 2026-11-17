@@ -1,0 +1,4 @@
+warehouse_robot_interfaces/Order order
+---
+bool accepted
+string reason

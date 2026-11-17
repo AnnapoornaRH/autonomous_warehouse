@@ -1,0 +1,5 @@
+string robot_id
+string[] resources          # empty = release everything held by the robot
+---
+bool success
+string message

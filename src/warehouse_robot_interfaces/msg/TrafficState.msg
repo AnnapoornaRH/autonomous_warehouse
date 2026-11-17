@@ -1,0 +1,5 @@
+builtin_interfaces/Time stamp
+warehouse_robot_interfaces/ZoneState[] zones
+warehouse_robot_interfaces/ZoneState[] stations
+uint32 deadlock_preventions
+uint32 recoveries
